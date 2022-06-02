@@ -13,11 +13,11 @@ O **Unix** é um sistema operacional popular que foi lançado em 1969 e ganhou m
 
 ### Eu sou capaz de: 
 
-- [ ] Executar comandos no terminal para navegar entre diretórios.
+- [x] Executar comandos no terminal para navegar entre diretórios.
 
-- [ ] Executar comandos no terminal para criar e manipular arquivos e diretórios.
+- [x] Executar comandos no terminal para criar e manipular arquivos e diretórios.
 
-- [ ] Executar comandos no terminal para realizar buscas.
+- [x] Executar comandos no terminal para realizar buscas.
 
 ## Por que isso é importante? 🤔
 
