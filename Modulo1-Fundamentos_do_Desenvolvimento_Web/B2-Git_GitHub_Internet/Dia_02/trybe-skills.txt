@@ -1,4 +1,6 @@
-Unix
-Bash
-Git
-Python
+- Unix
+- Bash
+- Git
+- JS
+- HTML
+- Python
