@@ -4,6 +4,6 @@ Continuando nossos estudos sobre o git e como versionar da melhor forma possíve
 
 #### Lista de atividades do dia: 📚
 
-- Copiar/Clonar repositórios que estão no GitHub
-- Abrir Pull Requests
-- Trabalhar em um mesmo projeto, com mais de uma pessoa, de forma assíncrona e distribuída
+- Copiar/Clonar repositórios que estão no GitHub.
+- Abrir Pull Requests.
+- Trabalhar em um mesmo projeto, com mais de uma pessoa, de forma assíncrona e distribuída.
