@@ -1,5 +1,6 @@
-Unix
-Bash
-Git
+- Unix
+- Bash
+- Git
 - JS
 - HTML
+- Python
