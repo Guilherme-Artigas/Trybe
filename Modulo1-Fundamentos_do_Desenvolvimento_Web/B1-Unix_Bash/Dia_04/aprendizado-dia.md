@@ -82,15 +82,15 @@ Se começar com D significa que é um diretório.
 
 ## Lista de comandos aprendidos na video aula 3 do dia 4 de conteúdos - Unix & Bash - Parte 2 📗
 
-**ps** - Lista de processos sendo executados.
-**sleep 5** - Coloca o terminal para dormir.
-**sleep 10 &** - Criar processos e deixar em background.
-**ctrl + z** - Pausa o comando atual.
-**fg** - Retorna em primeiro plano.
-**bg** - Retorna em segundo plano.
-**jobs** - Exibe todos os processos executados.
-**ctrl + c** - Encerrar um processo.
-**kill %[numero do processo]** - Matar processo em background.
-**kill [numero do PID]** - Matar processo pelo PID dele.
-**kill -9 [numero do processo]** - Forçar algum processo ser finalizado.
-**find [name],[date],[size],[type]** - Pesquisa em diretórios por arquivos ou outras pastas.
+- **ps** - Lista de processos sendo executados.
+- **sleep 5** - Coloca o terminal para dormir.
+- **sleep 10 &** - Criar processos e deixar em background.
+- **ctrl + z** - Pausa o comando atual.
+- **fg** - Retorna em primeiro plano.
+- **bg** - Retorna em segundo plano.
+- **jobs** - Exibe todos os processos executados.
+- **ctrl + c** - Encerrar um processo.
+- **kill %[numero do processo]** - Matar processo em background.
+- **kill [numero do PID]** - Matar processo pelo PID dele.
+- **kill -9 [numero do processo]** - Forçar algum processo ser finalizado.
+- **find [name],[date],[size],[type]** - Pesquisa em diretórios por arquivos ou outras pastas.
