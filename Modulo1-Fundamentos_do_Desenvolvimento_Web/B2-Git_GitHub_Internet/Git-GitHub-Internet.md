@@ -6,6 +6,6 @@ Nesse bloco eu aprendi sobre versionamento local com o **Git**, fizemos uma din�
 
 #### Sou capaz de: 📝
 
-- [ ] Versionar códigos localmente com o Git;
-- [ ] Trabalhar com o repositório local e o remoto de forma segura e confortável;
-- [ ] Entender o funcionamento da internet e seus protocolos de segurança HTTP e HTTPS;
+- [x] Versionar códigos localmente com o Git;
+- [x] Trabalhar com o repositório local e o remoto de forma segura e confortável;
+- [x] Entender o funcionamento da internet e seus protocolos de segurança HTTP e HTTPS;
