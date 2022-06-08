@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -7,24 +7,107 @@
 }
 
 header {
+    font-weight: 500;
     position: relative;
-    padding: 40px;
+    padding: 20px;
 }
 header > h1 {
     display: inline-block;
 }
 header > nav {
     display: inline-block;
-    position: absolute; right: 40px; bottom: 50px;
+    position: absolute; right: 10px; bottom: 30px;
 }
 header > nav > a {
     color: rgba(0, 0, 0);
     margin: 0px 10px;
     text-decoration: none;
 }
-.botao {
+.botao1 {
+    font-size: 11pt;
+}
+.botao2 {
     border: 2px solid #11a36a;
     border-radius: 5px;
-    color: #11a36a;
+    color: rgba(17, 163, 106);
     padding: 15px;
 }
+.botao2:hover {
+    background: rgba(17, 163, 106);
+    color: rgba(255, 255, 255);
+}
+/*  */
+main {
+    font-weight: 500;
+}
+main > section.secao-1 {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1)), url("hero-image.jpg");
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    height: 700px;
+    padding: 40px;
+}
+main > section.secao-1 > article {
+    margin: 50px 0px;
+    width: 60%;
+}
+main > section.secao-1 > article > h1 {
+    color: rgba(10, 126, 81);
+    font-size: 30pt;
+    margin: 10px 0px;
+}
+main > section.secao-1 > article > p {
+    color: rgba(50, 63, 58);
+    margin: 40px 0px;
+}
+main > section.secao-1 > article > a {
+    background: rgba(17, 163, 106);
+    border-radius: 5px;
+    color:rgba(255, 255, 255);
+    display: inline-block;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+main > section.secao-1 > article > a:hover {
+    background: rgb(11, 117, 77);
+}
+
+main > section.secao-2 {
+    padding: 80px 30px;
+    text-align: center;
+}
+main > section.secao-2 > h3 {
+    color: rgba(17, 163, 106);
+    font-size: 26pt;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 0px 0px 50px 0px;
+}
+main > section.secao-2 > p {
+    color: rgba(71, 85, 80);
+    margin: 50px auto;
+    width: 60%;
+}
+main > section.secao-2 > div.depoimentos-1 {
+    display: inline-block;
+    margin: 20px 0px 0px 0px;
+    width: 30%;
+}
+main > section.secao-2 > div.depoimentos-1 > img {
+    border-radius: 50%;
+}
+main > section.secao-2 > div.depoimentos-1 > p {
+    color: rgba(71, 85, 80);
+    font-size: 10pt;
+    font-weight: 300;
+    margin: 20px auto;
+    width: 70%;
+}
+main > section.secao-2 > div.depoimentos-1 > p.strong-nomes {
+    color: rgba(17, 163, 106);
+    font-weight: 400;
+}
+/*  */
