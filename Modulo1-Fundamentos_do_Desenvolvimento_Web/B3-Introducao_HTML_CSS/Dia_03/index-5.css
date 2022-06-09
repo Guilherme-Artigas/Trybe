@@ -1,0 +1,48 @@
+li {
+    font-size: 20px;
+}
+ol > li {
+    background: yellow;
+}
+li > em {
+    font-weight: 900;
+}
+li.impar {
+    text-transform: uppercase;
+}
+li.par {
+    color: green;
+}
+
+h1, h3 {
+    color: red;
+}
+h1.aumenta {
+    border: 1px solid black;
+    font-size: 40px;
+}
+.fonte-azul {
+    color: blue;
+}
+.fundo-rosa {
+    background: pink;
+}
+li.texto-negrito:hover {
+    font-weight: 900;
+    transition: 1s;
+}
+.orange:hover {
+    color: orange;
+}
+.green:hover {
+    color: green;
+}
+.black:hover {
+    color: black;
+}
+.yellow:hover {
+    color: yellow;
+}
+.green-2:hover {
+    color: seagreen;
+}
