@@ -1,0 +1,30 @@
+div:hover {
+    border: 1px dashed black;
+}
+
+div.div-1 {
+    background: #EDAE49;
+}
+div.div-2 {
+    background: #D1495B;
+}
+div.div-3 {
+    background: #00798C;
+    height: 200px;
+}
+div.div-4 {
+    background: #003D5B;
+}
+div.div-5 {
+    background: #30638E;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+div.div-1, div.div-3, div.div-5 {
+    font-style: italic;
+}
