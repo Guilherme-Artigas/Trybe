@@ -119,6 +119,7 @@ main > section.secao-2 > div.depoimentos-1 > p.strong-nomes {
 main > section.secao-3 {
     background: #f5f5f5;
     padding: 100px 30px;
+    position: relative;
 }
 main > section.secao-3 > h3 {
     color: #11a36a;
@@ -148,3 +149,7 @@ main > section.secao-3 > div.depoimentos-2 > p {
     font-weight: 400;
     margin: 20px 0px;
 }
+.depoimentos-2-direito {
+    position: absolute; top: 180px;
+}
+/*  */
