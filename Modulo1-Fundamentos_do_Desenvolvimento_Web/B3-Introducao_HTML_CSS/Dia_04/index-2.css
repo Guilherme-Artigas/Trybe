@@ -45,10 +45,50 @@ main {
 }
 main > article {
     color: #fff;
+    display: inline-block;
     padding: 5px;
+    width: 60%;
 }
-main > article > h2 {
+main > h2 {
+    color: #fff;
+    font-size: 32px;
     margin: 40px 0px;
     text-align: center;
 }
-/*  */
+
+main > article > section {
+    background: #FDFCDC;
+    border-radius: 5px;
+    color: #000;
+    margin: 15px 0px;
+    padding: 5px;
+}
+main > article > section > h3 {
+    margin: 15px 0px;
+    text-align: center;
+}
+main > article > section > img {
+    display: block;
+    margin: 15px auto;
+}
+main > article > section > ul {
+    list-style-position: inside;
+}
+
+main > aside {
+    background: #FDFCDC;
+    border-radius: 5px;
+    color: #000;
+    display: inline-block;
+    margin: 20px 0px;
+    padding: 5px;
+    width: 38.5%;
+}
+.flutuando-na-direita {
+    float: right;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+}
