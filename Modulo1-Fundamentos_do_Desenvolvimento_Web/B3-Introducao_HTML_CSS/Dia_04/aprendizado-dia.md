@@ -1,0 +1,3 @@
+# Dia 04 ☁️
+
+Dando sequencia nos estudos de **HTML** hoje vamos falar sobre coisas que foram acrescentas nas ultimas atualizações da nossa linguagem de marcação predileta, com o avanço da tecnologia e da acessibilidade de cada vez mais pessoas a rede, surgiu a necessidade do aprimoramento do **HTML** tanto para pessoas sem necessidades especiais, mas principalmente para pessoas com alguma dificuldade visual, fazendo o trabalho de leitores de tela ficarem mais fáceis. Outro ponto muito importante é sobre a forma de se buscar conteúdos através de pesquisas.
