@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.first {
+    background: rgba(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    width: 200px;
+}
+
+.second {
+    background: rgba(219, 219, 219);
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.third {
+    background: rgba(170, 142, 106);
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
