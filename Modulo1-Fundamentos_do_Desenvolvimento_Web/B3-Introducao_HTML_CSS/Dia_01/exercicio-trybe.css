@@ -2,6 +2,90 @@
 /* font-family: 'Montserrat', sans-serif; */
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', Sans-Serif;
+    list-style-type: none;
+    list-style-position: inside;
     margin: 0px;
     padding: 0px;
+}
+/*  */
+header {
+    padding: 10px;
+    position: relative;
+}
+header > h1 {
+    display: inline-block;
+}
+header > nav.navegacao-do-header {
+    /* border: 1px solid black; */
+    display: none;
+    position: absolute; right: 10px; top: 20px;
+}
+header > nav.navegacao-do-header > ul > li {
+    display: inline-block;
+}
+header > nav.navegacao-do-header > ul > li > a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+header > nav.navegacao-do-header > ul > li > a.botao-header-2 {
+    border: 2px solid #11a36a;
+    border-radius: 5px;
+    color: #11a36a;
+    padding: 10px;
+}
+header > nav.navegacao-do-header > ul > li > a.botao-header-2:hover {
+    background: #11a36a;
+    color: #fff;
+    transition: .5s;
+}
+/*  */
+main > section.secao-1 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    color: #fff;
+    padding: 60px 30px 40px;
+    width: 100%;
+}
+main > section.secao-1 > div.container-secao-1 {
+    max-width: 60%;
+    padding: 0px 1em;
+}
+main > section.secao-1 > div.container-secao-1 > h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+}
+main > section.secao-1 > div.container-secao-1 > p {
+    margin: 40px 0px;
+    max-width: 80%;
+}
+main > section.secao-1 > div.container-secao-1 > a {
+    background: #11a36a;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin: 15px 0px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+main > section.secao-1 > div.container-secao-1 > a:hover {
+    background: #0c754d;
+    transition: .5s;
+}
+/*  */
+
+
+
+/* Trabalhando com responsividade */
+@media only screen and (min-width: 650px) {
+    header > nav.navegacao-do-header {
+        display: inline-block;
+    }
 }
