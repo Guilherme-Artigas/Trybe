@@ -143,3 +143,46 @@ main > section.secao-3 > div.depoimentos-secao-3 > h4 {
     line-height: 20px;
 }
 /* Fim da seção 3!!! em obras!!! */
+main > section.secao-4 {
+    padding: 60px 30px;
+    text-align: center;
+}
+main > section.secao-4 > h3 {
+    color: #11a36a;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 5px;
+}
+main > section.secao-4 > ul {
+    color: #11a36a;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 50px 0px;
+}
+main > section.secao-4 > ul > li {
+    color: #475550;
+    font-size: 16px;
+    line-height: 1.4em;
+    list-style-type: square;
+    margin: 40px 0px;
+}
+main > section.secao-4 > img {
+    width: 100%;
+}
+main > section.secao-4 > h4 {
+    color: #11a36a;
+    margin: 70px 0px 30px 0px;
+    padding: 0px 20px;
+}
+main > section.secao-4 > a {
+    background: #11a36a;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+/* Fim da seção 4!!! em obras!!! */
