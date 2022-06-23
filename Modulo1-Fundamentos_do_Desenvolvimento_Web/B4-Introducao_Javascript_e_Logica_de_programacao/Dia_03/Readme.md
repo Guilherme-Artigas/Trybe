@@ -1,0 +1,3 @@
+# Dia 03 ☀️
+
+Continuando nossos estudos, hoje vamos falar sobre a lógica de programação, a base de tduo que veremos da para frente. Assim como em uma receita de bolo, na programação, devemos orientar o computador a seguir os passo a passos para resoluções de problemas. Essa sequência de comandos chamamos de **Algoritmos**, precisamos desenvolver uma capacidade analítica para transformar grandes problemas em pequenos e encadeados comandos lógicos.
