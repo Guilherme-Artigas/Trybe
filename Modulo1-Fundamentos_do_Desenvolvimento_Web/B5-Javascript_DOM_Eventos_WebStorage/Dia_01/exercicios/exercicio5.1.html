@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.1</title>
+
+  <style>
+    main,
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+  </header>
+  <main class="main-content">
+    <section class="center-content">
+      <p>Texto padrão do nosso site</p>
+      <p>-----</p>
+      <p>Trybe</p>
+    </section>
+  </main>
+  <script>
+    window.document.getElementsByTagName('p')[1].innerText = 'Iniciei os meu estudos na Trybe com o sonho de mudar de carreira, daqui a 2 anos eu me vejo trabalhando na área sendo um bom profissional respeitado por colegas.';
+    window.document.getElementsByClassName('main-content')[0].style.background = 'rgb(76, 164, 108)';
+    window.document.getElementsByClassName('center-content')[0].style.background = '#fff';
+    window.document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+    let tagP = window.document.getElementsByTagName('p');
+    for (let i = 0; i < tagP.length; i += 1) {
+      tagP[i].style.textTransform = 'uppercase';
+    };
+    for (let i = 0; i < tagP.length; i += 1) {
+      console.log(document.getElementsByTagName('p')[i].innerText);
+    }
+  </script>
+</body>
+
+</html>
