@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    // 1. Acesse o elemento elementoOndeVoceEsta.
+    window.document.querySelector('section#elementoOndeVoceEsta');
+    // 2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    window.document.querySelector('section#elementoOndeVoceEsta').parentNode.style.background = '#87CEEB';
+    // 3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+    window.document.querySelector('section#primeiroFilhoDoFilho').innerText = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nihil illo quod eum harum ab maiores explicabo, debitis molestiae ad adipisci error tempore. Ut voluptas repudiandae qui et libero obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati amet praesentium dolor, dicta sed? Saepe assumenda consequuntur officia iusto! Commodi, vitae labore odio magnam libero asperiores fuga nostrum architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, repudiandae repellendus mollitia doloribus esse maiores soluta earum nobis ea quaerat, obcaecati sapiente molestias reprehenderit fugiat, corporis tempora sed quam facilis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id enim assumenda illo sequi, dolore accusamus debitis voluptas ex necessitatibus eum atque natus, molestiae officia minus nostrum ad accusantium voluptatum non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aliquam at voluptatem ipsam, sit ratione iste sint dicta officia a quasi? Totam iste odio pariatur et! Aut laudantium et a. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam quisquam recusandae natus nisi fugiat quo ipsam nihil voluptatum sequi molestiae quasi odit facere nostrum minima, porro vel debitis maxime perferendis.';
+    // 4. Acesse o primeiroFilho a partir de pai.
+    window.document.querySelector('section#pai').firstElementChild;
+    // 5. Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+    window.document.querySelector('section#elementoOndeVoceEsta').firstElementChild;
+    // 6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+    window.document.querySelector('section#elementoOndeVoceEsta').parentElement.childNodes[4];
+    // 7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+    window.document.querySelector('section#elementoOndeVoceEsta').parentElement.childNodes[5];
+    // 8. Agora acesse o terceiroFilho a partir de pai.
+    window.document.querySelector('section#pai').children[2];
+  </script>
+</body>
+
+</html>

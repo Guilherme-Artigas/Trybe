@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    // 1. Crie um irmão para elementoOndeVoceEsta.
+    let sectionPai = window.document.querySelector('section#pai');
+    let criandoP = window.document.createElement('p');
+    sectionPai.appendChild(criandoP);
+    window.document.querySelector('section#pai p').innerText = 'Paragrafo criado de forma dinâmica com Javascript!'
+    // 2. Crie um filho para elementoOndeVoceEsta.
+    let sectionOndeVoceEsta = window.document.querySelector('section#elementoOndeVoceEsta');
+    let criandoH2 = window.document.createElement('h2');
+    sectionOndeVoceEsta.appendChild(criandoH2);
+    window.document.querySelector('section#elementoOndeVoceEsta h2').innerText = 'H2 criado de forma dinâmica com Javascript!';
+    // 3. Crie um filho para primeiroFilhoDoFilho.
+    let sectionPrimeiroFilho = window.document.querySelector('section#primeiroFilho');
+    let criandoH3 = window.document.createElement('h3');
+    sectionPrimeiroFilho.appendChild(criandoH3);
+    window.document.querySelector('section#primeiroFilho h3').innerText = 'H3 criado de forma dinâmica com Javascript';
+    // 4. A partir desse filho criado, acesse terceiroFilho.
+    window.document.querySelector('section#primeiroFilho h3').parentElement.parentElement.children[2];
+  </script>
+</body>
+
+</html>
