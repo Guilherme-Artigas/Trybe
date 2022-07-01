@@ -1,40 +1,55 @@
 // Funcionalidade que altera a cor de fundo da página.
 const colorName = window.document.querySelector('input#background');
+const corpo = window.document.querySelector('body');
 function corFundo () {
-  window.document.querySelector('body').style.background = colorName.value;
+  corpo.style.background = colorName.value;
+  localStorage.setItem('corFundo', colorName.value);
 };
 colorName.addEventListener('keyup', corFundo);
 
 // Funcionalidade que altera a cor da letra.
 const fontColor = window.document.querySelector('input#color');
 function corLetra () {
-  window.document.querySelector('body').style.color = fontColor.value;
+  corpo.style.color = fontColor.value;
+  localStorage.setItem('corLetra', fontColor.value);
 };
 fontColor.addEventListener('keyup', corLetra);
 
 // Funcionalidade que altera o tamanho da fonte.
 const tamanhoFonte = window.document.querySelector('input#fontSize');
 function sizeFont () {
-  window.document.querySelector('body').style.fontSize = tamanhoFonte.value + 'px';
+  corpo.style.fontSize = tamanhoFonte.value + 'px';
+  localStorage.setItem('fontSize', tamanhoFonte.value + 'px');
 };
 tamanhoFonte.addEventListener('change', sizeFont);
 
 // Funcionalidade que altera o espaçamento entre as linhas.
 const entreLinhas = window.document.querySelector('input#lineHeight');
 function espacoEntreLinhas () {
-  window.document.querySelector('body').style.lineHeight = entreLinhas.value + 'px';
+  corpo.style.lineHeight = entreLinhas.value + 'px';
+  localStorage.setItem('alturaLinhas', entreLinhas.value + 'px');
 };
-entreLinhas.addEventListener('change', espacoEntreLinhas);
+entreLinhas.addEventListener('keyup', espacoEntreLinhas);
 
 // Funcionalidade que altera a fonte.
 const fontFamily = window.document.querySelector('input#fontFamily');
 function familiaFont () {
-  window.document.querySelector('body').style.fontFamily = fontFamily.value;
+  corpo.style.fontFamily = fontFamily.value;
+  localStorage.setItem('ff', fontFamily.value);
 };
 fontFamily.addEventListener('change', familiaFont);
 
+function renderizacao () {
+  corpo.style.background = localStorage.getItem('corFundo');
+  corpo.style.color = localStorage.getItem('corLetra');
+  corpo.style.fontSize = localStorage.getItem('fontSize');
+  corpo.style.lineHeight = localStorage.getItem('alturaLinhas');
+  corpo.style.fontFamily = localStorage.getItem('ff');
+};
 
+window.onload = function () {
+  renderizacao();
+};
 
-localStorage.setItem('pageBack', colorName.value); // salva uma entrada com a key = 'firstname' e value = 'Adam'
-localStorage.setItem('lastname', 'Smith'); // salva uma entrada com a key = 'lastname' e value = 'Smith'
-window.document.querySelector('body').style.background = localStorage.getItem('pageBack');
+// localStorage.setItem('', '');
+// localStorage.getItem('');
