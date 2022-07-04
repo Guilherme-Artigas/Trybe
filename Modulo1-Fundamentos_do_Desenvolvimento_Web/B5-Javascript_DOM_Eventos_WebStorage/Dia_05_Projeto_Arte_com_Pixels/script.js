@@ -5,7 +5,7 @@ for (let i = 1; i <= 25; i += 1) {
   itemLista.style.height = '42px';
   itemLista.style.width = '42px';
   ulPixelBoard.appendChild(itemLista);
-}
+};
 
 let selected = 'black';
 
@@ -46,3 +46,30 @@ corblueVioletWheel.addEventListener('click', function () {
 ulPixelBoard.addEventListener('click', function (arg1) {
   arg1.target.className = 'pixel ' + selected;
 })
+
+const buttonClear = window.document.querySelector('button#clear-board');
+buttonClear.addEventListener('click', function () {
+  const allLi = window.document.querySelectorAll('li.pixel');
+  for (let i of allLi) {
+    i.className = 'pixel white';
+  };
+});
+
+const buttonGenerator = window.document.querySelector('button#generate-board');
+buttonGenerator.addEventListener('click', function () {
+  const boardSizeString = window.document.querySelector('input#board-size');
+  if (boardSizeString.value === '') {
+    alert('Board inválido!');
+  } else {
+    const boardSizeNumber = parseInt(boardSizeString.value);
+    ulPixelBoard.style.height = '100%';
+    ulPixelBoard.style.width = '100%';
+    for (let indice = 1; indice <= boardSizeNumber * boardSizeNumber; indice += 1) {
+      const itemLista = window.document.createElement('li');
+      itemLista.className = 'pixel white';
+      itemLista.style.height = '42px';
+      itemLista.style.width = '42px';
+      ulPixelBoard.appendChild(itemLista);
+    };
+  };
+});

@@ -33,6 +33,10 @@ ul#pixel-board li.pixel {
   margin-bottom: -4px;
 }
 
+button#clear-board {
+  margin: 15px 0px 0px 0px;
+}
+
 .black {
   background-color: black;
 }
