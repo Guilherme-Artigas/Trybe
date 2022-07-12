@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div.container {
+  background: bisque;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+@media only screen and (min-width: 800px) {
+  div.container {
+    background: floralwhite;
+    padding: 20px;
+  }
+
+  article.main-content {
+    line-height: 28px;
+  }
+
+  article.main-content h1 {
+    margin: 50px 0px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  article.main-content {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
