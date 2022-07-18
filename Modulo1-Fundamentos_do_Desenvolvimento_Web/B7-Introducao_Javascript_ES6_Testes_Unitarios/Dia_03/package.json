@@ -1,0 +1,15 @@
+{
+  "name": "dia_03",
+  "version": "1.0.0",
+  "description": "Prosseguindo com os estudos de **Javascript** o assunto de hoje é **Jest**, testes unitários e também como testar em pequenos passos, como podemos orientar nosso desenvolvimento com base nos testes! Para isso utilizamos um framework chamado **Jest**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
