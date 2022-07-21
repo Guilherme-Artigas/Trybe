@@ -20,8 +20,8 @@ Nesse Primeiro módulo eu aprendi tudo que precisava saber para iniciar a minha 
 - [x] Entender como a internet funciona, seus principais conceitos e terminologias 🚀
 - [x] Utilizar de forma confortável o Git e o GitHub 🚀
 - [x] Criar documentos HTML estilizados com CSS 🚀
-- [ ] Utilizar JS para adicionar comportamentos às páginas web 🚀
-- [ ] Utilizar recursos de HTML e CSS avançado 🚀
-- [ ] Trabalhar com Javascript e ES6 🚀
-- [ ] Criar códigos assíncronos em Javascript 🚀
-- [ ] Escrever testes unitários 🚀
+- [x] Utilizar JS para adicionar comportamentos às páginas web 🚀
+- [x] Utilizar recursos de HTML e CSS avançado 🚀
+- [x] Trabalhar com Javascript e ES6 🚀
+- [x] Criar códigos assíncronos em Javascript 🚀
+- [x] Escrever testes unitários 🚀

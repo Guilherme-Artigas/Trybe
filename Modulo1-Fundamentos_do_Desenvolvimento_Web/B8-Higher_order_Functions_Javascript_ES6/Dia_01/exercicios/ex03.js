@@ -9,3 +9,22 @@
 
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const hof1 = (array1, array2, funcao) => funcao(array1, array2);
+
+const hof2 = (arg1, arg2) => {
+  let totalPontos = null;
+  for (let indice = 0; indice < arg1.length; indice += 1) {
+    if (arg1[indice] === arg2[indice]) {
+      totalPontos += 1;
+    };
+    if (arg2[indice] !== 'N.A') {
+      if (arg1[indice] !== arg2[indice]) {
+        totalPontos -= 0.5;
+      };
+    };
+  };
+  return totalPontos;
+};
+
+console.log(hof1(RIGHT_ANSWERS, STUDENT_ANSWERS, hof2));
