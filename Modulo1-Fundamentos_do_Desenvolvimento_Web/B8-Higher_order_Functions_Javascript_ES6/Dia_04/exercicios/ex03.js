@@ -63,7 +63,7 @@ const books = [
 
 const averageAge = (array) => array.reduce((ac, e) => {
   let somaIdadesTotal = e.releaseYear - e.author.birthYear;
-  ac += Math.round(somaIdadesTotal / 6);
+  ac += Math.round(somaIdadesTotal / array.length);
   return ac;
 }, 0);
 console.log(averageAge(books));
