@@ -61,15 +61,15 @@ O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-024-a-project-js-unit-tests/pull/104)_
 
 ##### Bloco 8: JavaScript ES6
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-024-a-project-zoo-functions/pull/59)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
