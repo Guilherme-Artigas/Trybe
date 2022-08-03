@@ -2,7 +2,7 @@
 
 Nesse Primeiro módulo eu aprendi tudo que precisava saber para iniciar a minha carreira no mundo do desenvolvimento web, virando uma pessoa preparada para os módulos de Front-End e Back-End.
 
-## A introdução está divida em cinco partes:
+## A introdução está divida em alguns blocos :
 
 - 1 - Pra começar, estudei sobre um famoso tipo de sistema operacional chamado **Unix**, colocando a mão na massa executando alguns comandos no terminal. ✍🏻
 
